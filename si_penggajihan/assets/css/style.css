@@ -1,0 +1,47 @@
+/*Style Welcome*/
+body {
+	margin-top: 55px;
+	background-color: #cbcbcb !important;
+}
+
+.navbar {
+	background-color: #222;
+}
+
+.navbar-brand,
+.nav-link {
+	color: #fefefe !important;
+}
+
+.nav-link {
+	margin: 0 10px;
+}
+
+/*Akhir Style Welcome*/
+
+/*Style Login*/
+.login .card {
+	margin-top: 50px;
+	text-transform: capitalize;
+}
+
+.login .nav-item {
+	color: black !important;
+}
+
+div .container .row .card .profile {
+	box-shadow: 3px 3px 2px solid rgba(0, 0, 0, 0.6) !important;
+}
+
+/*Akhir style login*/
+
+/*Desktop Display*/
+@media (min-width: 992px) {
+	.navbar {
+		text-transform: uppercase;
+	}
+
+	.login .card {
+		text-transform: uppercase;
+	}
+}
